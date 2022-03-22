@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="hutool-all-5.7.22">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/hutool-all-5.7.22.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/hutool-all-5.7.22-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
