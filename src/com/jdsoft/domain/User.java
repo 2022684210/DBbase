@@ -3,8 +3,8 @@ package com.jdsoft.domain;
 import com.jdsoft.base.BaseDomain;
 
 public class User extends BaseDomain {
-    public String tmd = "傻子";
-    User to;
+    String tmd = "傻子";
+    User to = null;
     public User() {
         super();
     }
@@ -14,4 +14,5 @@ public class User extends BaseDomain {
     public User(String... init){
         super(init);
     }
+
 }

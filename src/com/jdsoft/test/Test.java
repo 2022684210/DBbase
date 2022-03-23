@@ -10,7 +10,8 @@ public class Test {
     private static BaseService<User> userService = new UserService();
     private static BaseService<Messge> messgeService = new MessgeService();
     public static void main(String[] args) {
-        userService.add(new User());
+        UserService tp = new UserService();
+        tp.init("localhost:3306","user","root","root");
 //        userService.getById(2);
     }
 }

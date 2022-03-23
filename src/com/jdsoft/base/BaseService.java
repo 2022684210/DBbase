@@ -8,4 +8,5 @@ public interface BaseService <T>{
     void del(T t);
     void update(T t);
     void add(T t);
+    void addLibrary(String libraryName);
 }
